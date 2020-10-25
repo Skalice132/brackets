@@ -1,4 +1,4 @@
-module.exports = function check(str, bracketsConfig) {
+module.exports = function check(expr, bracketsConfig) {
     const holder = []
     const openBrackets = ['(','{','[']
     const closedBrackets = [')','}',']']
